@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+
+  - name: postgres 
+    schema: public
+    database: raw 
+
+    quoting:
+      database: false
+      schema: false
+      identifier: false
+
+    freshness:
+      warn_after: {count: 24, period: hour}
+      error_after: {count: 48, period: hour}
+
+    tables:
+      - name: addresses 
+        description: Table containing customer addresses with address_id as PK
+      - name: users 
+        description: Table containing customers PII information with user_id as PK
+      - name: orders
+        description: Table containing customer orders details with order_id as PK
+      - name: events 
+        description: Table containing every transaction perfomed by a custoemr on the website with event_id as PK
+      - name: products
+        description: Table containing inventory details for every product with product_id as PK
+      - name: order_items 
+        description: Table extending order table to understand products and quantity associated to each order with order_id as PK
+      - name: promos
+        description: Table containing information of every promotion offered by greenery with promo_id as PK
+      
