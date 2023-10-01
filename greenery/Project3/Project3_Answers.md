@@ -2,7 +2,8 @@
 
 **Question 1 :**  
 What is our overall conversion rate?
-    |Date|CONVERSION_RATE (%)|
+
+    |Date|CONVERSION_RATE(%)|
     |:---|:---:|
     |2021-02-11|64.2|
     |2021-01-10|100.1|
