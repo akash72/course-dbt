@@ -3,11 +3,11 @@
 **Question 1 :**  
 What is our overall conversion rate?
 
-    |Date|CONVERSION_RATE(%)|
-    |:---|:---:|
-    |2021-02-11|64.2|
-    |2021-01-10|100.1|
-    |2021-02-09|100|
+   |Date|CONVERSION_RATE(%)|
+   |:---|:---:|
+   |2021-02-11|64.2|
+   |2021-01-10|100.1|
+   |2021-02-09|100|
 
 **Question 2 :**  
 What is our conversion rate by product?
